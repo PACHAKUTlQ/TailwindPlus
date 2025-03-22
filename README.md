@@ -16,6 +16,7 @@ This project provides a way to access and study the code behind the components.
 
 ## UI blocks map
 
+```
 ui-blocks/
 ├── application-ui/
 │   ├── application-shells/
@@ -35,7 +36,7 @@ ui-blocks/
 │   │   │   ├── light_sidebar_with_constrained_content_area.vue
 │   │   │   ├── light_sidebar_with_header.vue
 │   │   │   └── light_sidebar_with_off-white_background.vue
-│   │   └──  stacked/
+│   │   └── stacked/
 │   │   │   ├── brand_nav_with_overlap.vue
 │   │   │   ├── branded_nav_with_compact_white_page_header.vue
 │   │   │   ├── branded_nav_with_white_page_header.vue
@@ -63,7 +64,7 @@ ui-blocks/
 │   │   │   ├── left-aligned_with_inline_actions.vue
 │   │   │   ├── narrow_with_hidden_labels.vue
 │   │   │   └── two-column.vue
-│   │   └──  stats/
+│   │   └── stats/
 │   │   │   ├── simple_in_cards.vue
 │   │   │   ├── simple_on_dark.vue
 │   │   │   ├── with_brand_icon.vue
@@ -221,7 +222,7 @@ ui-blocks/
 │   │   │   ├── with_preview_button.vue
 │   │   │   ├── with_title_and_pill_actions.vue
 │   │   │   └── with_underline_and_actions.vue
-│   │   └──  toggles/
+│   │   └── toggles/
 │   │   │   ├── short_toggle.vue
 │   │   │   ├── simple_toggle.vue
 │   │   │   ├── toggle_with_icon.vue
@@ -249,7 +250,7 @@ ui-blocks/
 │   │   │   ├── with_meta,_actions,_and_breadcrumbs_on_dark.vue
 │   │   │   ├── with_meta_and_actions.vue
 │   │   │   └── with_meta_and_actions_on_dark.vue
-│   │   └──  section-headings/
+│   │   └── section-headings/
 │   │   │   ├── simple.vue
 │   │   │   ├── with_action.vue
 │   │   │   ├── with_actions.vue
@@ -295,7 +296,7 @@ ui-blocks/
 │   │   │   ├── separate_cards.vue
 │   │   │   ├── simple_with_dividers,_full-width_on_mobile.vue
 │   │   │   └── simple_with_dividers.vue
-│   │   └──  media-objects/
+│   │   └── media-objects/
 │   │   │   ├── aligned_to_bottom.vue
 │   │   │   ├── aligned_to_center.vue
 │   │   │   ├── basic.vue
@@ -413,7 +414,7 @@ ui-blocks/
 │   │   │   ├── tabs_with_underline.vue
 │   │   │   ├── tabs_with_underline_and_badges.vue
 │   │   │   └── tabs_with_underline_and_icons.vue
-│   │   └──  vertical-navigation/
+│   │   └── vertical-navigation/
 │   │   │   ├── on_gray.vue
 │   │   │   ├── simple.vue
 │   │   │   ├── with_badges.vue
@@ -441,7 +442,7 @@ ui-blocks/
 │   │   │   ├── simple_alert_with_left-aligned_buttons.vue
 │   │   │   ├── simple_with_dismiss_button.vue
 │   │   │   └── simple_with_gray_footer.vue
-│   │   └──  notifications/
+│   │   └── notifications/
 │   │   │   ├── condensed.vue
 │   │   │   ├── simple.vue
 │   │   │   ├── with_actions_below.vue
@@ -552,7 +553,7 @@ ui-blocks/
 │   │   │   ├── slide-over.vue
 │   │   │   ├── two_column_with_quantity_dropdown.vue
 │   │   │   └── with_extended_summary.vue
-│   │   └──  store-navigation/
+│   │   └── store-navigation/
 │   │   │   ├── with_centered_logo_and_featured_categories.vue
 │   │   │   ├── with_double_column_and_persistent_mobile_nav.vue
 │   │   │   ├── with_featured_categories.vue
@@ -591,7 +592,7 @@ ui-blocks/
 │   │   │   ├── simple_with_policy_grid.vue
 │   │   │   ├── with_policy_grid_and_extended_summary.vue
 │   │   │   └── with_related_products.vue
-│   │   └──  storefront-pages/
+│   │   └── storefront-pages/
 │   │   │   ├── with_dark_nav_and_footer.vue
 │   │   │   ├── with_image_tiles_and_feature_sections.vue
 │   │   │   ├── with_offers_and_testimonials.vue
@@ -620,7 +621,7 @@ ui-blocks/
 │   │   │   ├── stacked_with_footer_actions.vue
 │   │   │   ├── stacked_with_footer_list.vue
 │   │   │   └── two-column.vue
-│   │   └──  headers/
+│   │   └── headers/
 │   │   │   ├── constrained.vue
 │   │   │   ├── full_width.vue
 │   │   │   ├── on_brand_background.vue
@@ -634,7 +635,7 @@ ui-blocks/
 │   │   │   ├── with_right-aligned_nav.vue
 │   │   │   └── with_stacked_flyout_menu.vue
 │   ├── feedback/
-│   │   └──  404-pages/
+│   │   └── 404-pages/
 │   │   │   ├── simple.vue
 │   │   │   ├── split_with_image.vue
 │   │   │   ├── with_background_image.vue
@@ -824,7 +825,7 @@ ui-blocks/
 │   │   │   ├── with_medium_images_on_dark.vue
 │   │   │   ├── with_small_images.vue
 │   │   │   └── with_vertical_images.vue
-│   │   └──  testimonials/
+│   │   └── testimonials/
 │   │   │   ├── grid.vue
 │   │   │   ├── off-white_grid.vue
 │   │   │   ├── side-by-side.vue
@@ -834,6 +835,7 @@ ui-blocks/
 │   │   │   ├── with_large_avatar.vue
 │   │   │   ├── with_overlapping_image.vue
 │   │   │   └── with_star_rating.vue
+```
 
 ## Rate Limiting
 
